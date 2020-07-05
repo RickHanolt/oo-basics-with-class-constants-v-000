@@ -8,8 +8,4 @@ class Shoe
     BRANDS << brand
   end
 
-  def genre=(genre)
-    GENRES << genre
-  end
-
 end
