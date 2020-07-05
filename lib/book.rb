@@ -1,5 +1,5 @@
 class Book
-  attr_accessor :genres
+  attr_accessor :genre
 
   GENRES = []
 
