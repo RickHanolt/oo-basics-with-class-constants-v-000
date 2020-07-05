@@ -7,7 +7,7 @@ class Book
 
   def initialize(genre)
     GENRES << genre
+    binding.pry
   end
 
-  binding.pry
 end
