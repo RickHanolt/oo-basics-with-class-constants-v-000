@@ -7,9 +7,8 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    if BRANDS.none? = brand
     BRANDS << brand
-    binding.pry
-    BRANDS = BRANDS.uniq
   end
 
 end
