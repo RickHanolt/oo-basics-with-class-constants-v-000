@@ -8,7 +8,8 @@ class Shoe
   def initialize(brand)
     @brand = brand
     if BRANDS.none?{|b| b == brand}
-    BRANDS << brand
+      BRANDS << brand
+    end
   end
 
 end
