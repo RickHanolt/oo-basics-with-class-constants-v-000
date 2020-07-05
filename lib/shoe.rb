@@ -4,7 +4,7 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
-    @title = title
+    @brand = brand
   end
 
   def genre=(genre)
