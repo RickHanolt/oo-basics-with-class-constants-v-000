@@ -8,4 +8,5 @@ class Book
     GENRES << @genre
   end
 
+  binding.pry
 end
