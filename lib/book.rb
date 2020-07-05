@@ -5,7 +5,7 @@ class Book
 
   GENRES = []
 
-  def initialize(genre)
+  def initialize(title)
     GENRES << genre
     binding.pry
   end
