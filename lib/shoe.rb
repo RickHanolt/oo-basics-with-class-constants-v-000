@@ -1,7 +1,7 @@
 class Shoe
   attr_accessor :brand
 
-  GENRES = []
+  BRANDS = []
 
   def initialize(title)
     @title = title
