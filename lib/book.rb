@@ -1,9 +1,8 @@
 class Book
-  attr_accessor :genre
 
   GENRES = []
 
-  def initialize(name, genre)
+  def initialize(genre)
     @name = name
     @genre = genre
     GENRES << @genre
