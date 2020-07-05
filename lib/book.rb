@@ -6,8 +6,7 @@ class Book
   GENRES = []
 
   def initialize(title)
-    GENRES << genre
-    binding.pry
+    @title = title
   end
 
 end
