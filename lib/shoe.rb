@@ -3,7 +3,7 @@ class Shoe
 
   BRANDS = []
 
-  def initialize(title)
+  def initialize(brand)
     @title = title
   end
 
